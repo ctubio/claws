@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Claws Mail 3.7.8\n"
 "Report-Msgid-Bugs-To: paul@claws-mail.org\n"
 "POT-Creation-Date: 2015-07-12 20:01+0200\n"
-"PO-Revision-Date: 2015-07-14 20:52+0200\n"
+"PO-Revision-Date: 2015-07-20 20:56+0200\n"
 "Last-Translator: Carles Tubio <c@rles-tub.io>\n"
 "Language-Team: Miquel Oliete i Baliarda <ktalanet@yahoo.es>\n"
 "Language: ca\n"
@@ -1817,7 +1817,7 @@ msgstr "Turc (ISO-8859-_9)"
 
 #: src/compose.c:1066
 msgid "New message From format error."
-msgstr "Nou error de format al 'Des de' del nou missatge."
+msgstr "Nou error de format al 'De' del nou missatge."
 
 #: src/compose.c:1158
 msgid "New message subject format error."
@@ -1837,7 +1837,7 @@ msgid ""
 "The \"From\" field of the \"Reply\" template contains an invalid email "
 "address."
 msgstr ""
-"El camp \"Des de\" de la plantilla \"Respondre\" conté una adreça d'email "
+"El camp \"De\" de la plantilla \"Respondre\" conté una adreça d'email "
 "errònia "
 
 #: src/compose.c:1681 src/quote_fmt.c:589
@@ -1850,8 +1850,7 @@ msgid ""
 "The \"From\" field of the \"Forward\" template contains an invalid email "
 "address."
 msgstr ""
-"El camp \"Des de\" de la plantilla \"Reenviar\" conté una adreça d'email "
-"errònia "
+"El camp \"De\" de la plantilla \"Reenviar\" conté una adreça d'email errònia "
 
 #: src/compose.c:1877 src/quote_fmt.c:609
 #, c-format
@@ -2264,7 +2263,7 @@ msgstr "El cos de la plantilla té un error a la línia %d."
 
 #: src/compose.c:8679
 msgid "Template From format error."
-msgstr "Error de format el 'Des de' de la plantilla."
+msgstr "Error de format el 'De' de la plantilla."
 
 #: src/compose.c:8697
 msgid "Template To format error."
@@ -2362,7 +2361,7 @@ msgstr ""
 
 #: src/compose.c:10037
 msgid "_Cancel exit"
-msgstr "_Cancel·lar sortir"
+msgstr "_Cancel·lar tancament"
 
 #: src/compose.c:10037
 msgid "_Discard email"
@@ -4507,11 +4506,11 @@ msgstr "Data:"
 #: src/prefs_matcher.c:2171 src/prefs_summary_column.c:82 src/quote_fmt.c:50
 #: src/summaryview.c:442
 msgid "From"
-msgstr "Des de"
+msgstr "De"
 
 #: src/gtk/headers.h:10 src/summary_search.c:426
 msgid "From:"
-msgstr "Des de:"
+msgstr "De:"
 
 #: src/gtk/headers.h:11
 msgid "Sender"
@@ -4600,11 +4599,11 @@ msgstr "Re-enviament-Data:"
 
 #: src/gtk/headers.h:23
 msgid "Resent-From"
-msgstr "Re-enviament-Desde"
+msgstr "Re-enviament-De"
 
 #: src/gtk/headers.h:23
 msgid "Resent-From:"
-msgstr "Re-enviament-Desde:"
+msgstr "Re-enviament-De:"
 
 #: src/gtk/headers.h:24
 msgid "Resent-Sender"
@@ -4883,11 +4882,11 @@ msgstr "Per a o Cc:"
 
 #: src/gtk/headers.h:65
 msgid "From, To or Subject"
-msgstr "Des de, A o Assumpte"
+msgstr "De, A o Assumpte"
 
 #: src/gtk/headers.h:65
 msgid "From, To or Subject:"
-msgstr "Des de, A o Assumpte:"
+msgstr "De, A o Assumpte:"
 
 #: src/gtk/icon_legend.c:64
 msgid "New message"
@@ -6488,7 +6487,7 @@ msgstr "Obtenint el tamany dels nous missatges (LIST)..."
 
 #: src/inc.c:961 src/send_message.c:512
 msgid "Quitting"
-msgstr "Sortint"
+msgstr "Tancant"
 
 #: src/inc.c:986
 #, c-format
@@ -6779,11 +6778,11 @@ msgstr ""
 "  --compose-from-file file\n"
 "                         obre finestra de composició amb les dades dun arxiu "
 "donat;\n"
-"                          utilitzar - com nom de fitxer per a la lectura de "
+"                          utilitzar - com nom de fitxer per a la lectura de "
 "l'entrada estàndard;\n"
-"                          format de contingut: encapçalats primer (Per: "
+"                          format de contingut: encapçalats primer (Per: "
 "requerit) fins trobar una\n"
-"                          línia buida, llavors el cos del correu fins al "
+"                          línia buida, llavors el cos del correu fins al "
 "final de l'arxiu."
 
 #: src/main.c:1913
@@ -6878,7 +6877,7 @@ msgstr "  --offline               canviar a mode de treball sense connexió"
 
 #: src/main.c:1938
 msgid "  --exit --quit -q       exit Claws Mail"
-msgstr "  --exit --quit -q       sortir de Claws Mail"
+msgstr "  --exit --quit -q       tancar Claws Mail"
 
 #: src/main.c:1939
 msgid "  --debug                debug mode"
@@ -6935,7 +6934,7 @@ msgstr "Missatges en cua"
 
 #: src/main.c:2100
 msgid "Some unsent messages are queued. Exit now?"
-msgstr "Hi ha missatges sense enviar a la cua. Sortir ara?"
+msgstr "Hi ha missatges sense enviar a la cua. Tancar ara?"
 
 #: src/main.c:2842
 msgid "NetworkManager: network is online.\n"
@@ -6987,11 +6986,11 @@ msgstr "Buidar _totes les papereres"
 
 #: src/mainwindow.c:528 src/messageview.c:218
 msgid "_Save email as..."
-msgstr "De_sar com..."
+msgstr "De_sar el correu com..."
 
 #: src/mainwindow.c:529 src/messageview.c:219
 msgid "_Save part as..."
-msgstr "De_sar com..."
+msgstr "De_sar la part com..."
 
 #: src/mainwindow.c:532 src/messageview.c:220
 msgid "Page setup..."
@@ -7007,7 +7006,7 @@ msgstr "Sincronitzar carpetes"
 
 #: src/mainwindow.c:537
 msgid "E_xit"
-msgstr "_Sortir"
+msgstr "_Tancar"
 
 #: src/mainwindow.c:542
 msgid "Select _thread"
@@ -7405,12 +7404,12 @@ msgstr "_Automàticament"
 #: src/mainwindow.c:739 src/mainwindow.c:745 src/mainwindow.c:848
 #: src/messageview.c:320 src/messageview.c:326
 msgid "By _From"
-msgstr "Per el Des _de"
+msgstr "Per _De"
 
 #: src/mainwindow.c:740 src/mainwindow.c:746 src/mainwindow.c:849
 #: src/messageview.c:321 src/messageview.c:327
 msgid "By _To"
-msgstr "Per el _Per a"
+msgstr "Per _Per a"
 
 #: src/mainwindow.c:741 src/mainwindow.c:747 src/messageview.c:322
 #: src/messageview.c:328
@@ -7627,7 +7626,7 @@ msgstr "Per _número"
 
 #: src/mainwindow.c:845
 msgid "By s_ize"
-msgstr "Per _tamany"
+msgstr "Per taman_y"
 
 #: src/mainwindow.c:846
 msgid "By _date"
@@ -7639,7 +7638,7 @@ msgstr "Per data del Fil"
 
 #: src/mainwindow.c:850
 msgid "By s_ubject"
-msgstr "Per Ass_umpte"
+msgstr "Per ass_umpte"
 
 #: src/mainwindow.c:851
 msgid "By _color label"
@@ -7740,7 +7739,7 @@ msgstr "Esborrar tots els missatges de la paperera?"
 
 #: src/mainwindow.c:2891
 msgid "Don't quit"
-msgstr "No sortir"
+msgstr "No tancar"
 
 #: src/mainwindow.c:2920 src/plugins/mailmbox/plugin_gtk.c:189
 msgid "Add mailbox"
@@ -7791,11 +7790,11 @@ msgstr "L'exportació a arxiu mbox ha fallat."
 
 #: src/mainwindow.c:4026 src/plugins/notification/notification_trayicon.c:515
 msgid "Exit"
-msgstr "Sortir"
+msgstr "Tancar"
 
 #: src/mainwindow.c:4026 src/plugins/notification/notification_trayicon.c:515
 msgid "Exit Claws Mail?"
-msgstr "Vols sortir de Claws Mail?"
+msgstr "Vols tancar Claws Mail?"
 
 #: src/mainwindow.c:4217
 msgid "Folder synchronisation"
@@ -8014,7 +8013,7 @@ msgid ""
 "It is advised to not to send the return receipt."
 msgstr ""
 "Aquest missatge sollicita una notificació de justificant de recepció\n"
-"però d'acord amb les capçaleres 'Des de:' i 'Cc:' no fou\n"
+"però d'acord amb les capçaleres 'De:' i 'Cc:' no fou\n"
 "oficialment dirigit a vostè \n"
 "és un avís per no enviar el justificant de recepció."
 
@@ -9992,7 +9991,7 @@ msgstr "Ha aparegut un error: %d\n"
 #: src/plugins/fancy/fancy_viewer.c:707
 #, c-format
 msgid "%s is a malformed or not supported feed"
-msgstr "%s está malformat o no es un canal d'informació suportat"
+msgstr "%s está malformat o no es un canal d'informació suportat"
 
 #: src/plugins/fancy/fancy_viewer.c:718
 msgid "Search the Web"
@@ -10049,7 +10048,7 @@ msgid ""
 "By default all remote content is blocked. Options can be found in /"
 "Configuration/Preferences/Plugins/Fancy"
 msgstr ""
-"Aquest mòdul mostra el correu HTML uyilitzant el WebKit %d.%d.%d.\n"
+"Aquest mòdul mostra el correu HTML utilitzant el WebKit %d.%d.%d.\n"
 "\n"
 "Per defecte tot el contingut remote està bloquejat. Les opcions podeu trobar-"
 "les a /Configuració/Preferencies/Plugins/Fancy"
@@ -12451,7 +12450,7 @@ msgstr "Obrir l'A_genda d'adreces"
 
 #: src/plugins/notification/notification_trayicon.c:119
 msgid "E_xit Claws Mail"
-msgstr "_Sortir de Claws Mail"
+msgstr "_Tancar Claws Mail"
 
 #: src/plugins/notification/notification_trayicon.c:124
 msgid "_Work Offline"
@@ -13042,7 +13041,7 @@ msgstr "Signatura dolenta de \"%s\""
 #: src/plugins/pgpcore/sgpgme.c:261
 #, c-format
 msgid "Key 0x%s not available to verify this signature"
-msgstr "No s'ha trobat la clau 'x%s per verificar aquesta signatura"
+msgstr "No s'ha trobat la clau 0x%s per verificar aquesta signatura"
 
 #: src/plugins/pgpcore/sgpgme.c:266
 msgid "The signature has not been checked"
@@ -13561,7 +13560,7 @@ msgstr ""
 "\n"
 "Per a la majoria de la documentació de l'API fins a la data, executa\n"
 "\n"
-" help(clawsmail)\n"
+" help(clawsmail)\n"
 "\n"
 "a la consola de Python interactiva.\n"
 "\n"
@@ -16081,8 +16080,8 @@ msgid ""
 "\\n\\nBegin forwarded message:\\n\\n?d{Date: %d\\n}?f{From: %f\\n}?t{To: %t"
 "\\n}?c{Cc: %c\\n}?n{Newsgroups: %n\\n}?s{Subject: %s\\n}\\n\\n%M"
 msgstr ""
-"\\n\\nInici del missatge reenviat:\\n\\n?d{Data: %d\\n}?f{Desde: %f\\n}?t{A: "
-"%t\\n}?c{Cc: %c\\n}?n{Grups de notícies: %n\\n}?s{Assumpte: %s\\n}\\n\\n%M"
+"\\n\\nInici del missatge reenviat:\\n\\n?d{Data: %d\\n}?f{De: %f\\n}?t{A: %t"
+"\\n}?c{Cc: %c\\n}?n{Grups de notícies: %n\\n}?s{Assumpte: %s\\n}\\n\\n%M"
 
 #: src/prefs_common.c:442
 msgid "%x(%a) %H:%M"
@@ -17648,15 +17647,15 @@ msgstr "Afegir adreça a la destinació amb doble click"
 
 #: src/prefs_other.c:482
 msgid "On exit"
-msgstr "Al sortir"
+msgstr "Al tancar"
 
 #: src/prefs_other.c:485
 msgid "Confirm on exit"
-msgstr "Confirmar al sortir"
+msgstr "Confirmar al tancar"
 
 #: src/prefs_other.c:492
 msgid "Empty trash on exit"
-msgstr "Buidar la paperera al sortir"
+msgstr "Buidar la paperera al tancar"
 
 #: src/prefs_other.c:495
 msgid "Warn if there are queued messages"
@@ -18324,8 +18323,8 @@ msgid ""
 "Override composing account's From header. This doesn't change the composing "
 "account."
 msgstr ""
-"Sobreescriure la capçalera Des de del compte de composició. Això no canvia "
-"el compte de composició."
+"Sobreescriure la capçalera De del compte de composició. Això no canvia el "
+"compte de composició."
 
 #: src/prefs_template.c:309
 msgid "Append the new template above to the list"
@@ -18378,7 +18377,7 @@ msgstr "No s'ha establert el nom de la plantilla."
 
 #: src/prefs_template.c:811
 msgid "The \"From\" field of the template contains an invalid email address."
-msgstr "El camp \"Des de\" de la plantilla conté una adreça de correu errònia."
+msgstr "El camp \"De\" de la plantilla conté una adreça de correu errònia."
 
 #: src/prefs_template.c:817
 msgid "The \"To\" field of the template contains an invalid email address."
@@ -18874,7 +18873,7 @@ msgstr "llibre d'adresses <span style=\"oblique\">completion</span>: Cc"
 
 #: src/quote_fmt.c:77
 msgid "address book <span style=\"oblique\">completion</span>: From"
-msgstr "llibre d'adresses <span style=\"oblique\">completion</span>: Des de"
+msgstr "llibre d'adresses <span style=\"oblique\">completion</span>: De"
 
 #: src/quote_fmt.c:78
 msgid "address book <span style=\"oblique\">completion</span>: To"
@@ -19026,8 +19025,8 @@ msgid ""
 "Override From header. This doesn't change the account used to compose the "
 "new message."
 msgstr ""
-"Sobreescriure la capçalera Des de. Això no canvia el compte usat per "
-"composar el nou missatge."
+"Sobreescriure la capçalera De. Això no canvia el compte usat per composar el "
+"nou missatge."
 
 #: src/quote_fmt.c:299
 msgid "Use template when replying to messages"
@@ -19036,8 +19035,7 @@ msgstr "Usar plantilla quan es contestin missatges"
 #: src/quote_fmt.c:323
 msgid "Override From header. This doesn't change the account used to reply."
 msgstr ""
-"Sobreescriure la capçalera Des de. Això no canvia el compte usat per "
-"respondre."
+"Sobreescriure la capçalera De. Això no canvia el compte usat per respondre."
 
 #: src/quote_fmt.c:334 src/quote_fmt.c:464
 msgid "Quotation mark"
@@ -19050,8 +19048,7 @@ msgstr "Usar plantilla quan es reenviin missatges"
 #: src/quote_fmt.c:453
 msgid "Override From header. This doesn't change the account used to forward."
 msgstr ""
-"Sobreescriure la capçalera Des de. Això no canvia el compte usat per "
-"reenviar."
+"Sobreescriure la capçalera De. Això no canvia el compte usat per reenviar."
 
 #: src/quote_fmt.c:545
 msgid "Defaults"
@@ -19062,8 +19059,8 @@ msgid ""
 "The \"From\" field of the \"New message\" template contains an invalid email "
 "address."
 msgstr ""
-"El camp \"Des de\" de la plantilla \"Nou missatge\" conté una adreça de "
-"correu errònia."
+"El camp \"De\" de la plantilla \"Nou missatge\" conté una adreça de correu "
+"errònia."
 
 #: src/quote_fmt.c:566
 msgid "The \"Subject\" field of the \"New message\" template is invalid."
@@ -19152,7 +19149,7 @@ msgstr "Enviant DATA..."
 
 #: src/send_message.c:511
 msgid "Quitting..."
-msgstr "Sortint..."
+msgstr "Tancant..."
 
 #: src/send_message.c:540
 #, c-format
@@ -19437,7 +19434,7 @@ msgid ""
 "<span color='%s' style='italic'>From: %s, on %s</span>"
 msgstr ""
 "%s\n"
-"<span color='%s' style='italic'>Des de: %s, a %s</span>"
+"<span color='%s' style='italic'>De: %s, a %s</span>"
 
 #: src/summaryview.c:3427
 #, c-format
@@ -19888,7 +19885,7 @@ msgstr "Carpetes"
 
 #: src/toolbar.c:404
 msgid "Get Mail"
-msgstr "Rebre"
+msgstr "Rebre Correu"
 
 #: src/toolbar.c:405
 msgid "Get"
@@ -20719,7 +20716,7 @@ msgstr ""
 #~ msgid ""
 #~ "Printing HTML is only possible if the program 'html2ps' is installed."
 #~ msgstr ""
-#~ "Imprimir HTML nomÃ©s es possible si el programa 'html2ps' estÃ  "
+#~ "Imprimir HTML nomÃ©s es possible si el programa 'html2ps' estÃ  "
 #~ "instalÂ·lat."
 
 #~ msgid "Filename is null."
@@ -20743,7 +20740,7 @@ msgstr ""
 #~ msgstr "Configurar bústia"
 
 #~ msgid "Auto-Load images"
-#~ msgstr "Carrega imatges automÃ ticament"
+#~ msgstr "Carrega imatges automÃ ticament"
 
 #~ msgid "Block external content"
 #~ msgstr "Bloqueja contingut extern"
