@@ -8590,7 +8590,7 @@ msgstr "Error al registrar valida abans d'enviar"
 
 #: src/plugins/address_keeper/address_keeper.c:292
 msgid "Keeps all recipient addresses in an addressbook folder."
-msgstr "MantÃ© tots els destinaris a la carpeta del llibre d'adreces."
+msgstr "Manté tots els destinaris a la carpeta del llibre d'adreces."
 
 #: src/plugins/address_keeper/address_keeper.c:333
 #: src/plugins/address_keeper/address_keeper.h:32
@@ -8608,7 +8608,7 @@ msgstr "Mantenir a la carpeta"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:119
 msgid "Address book path where addresses are kept"
-msgstr "Ruta del llibre d'adresses on les adresses sÃ³n guardades"
+msgstr "Ruta del llibre d'adresses on les adresses són guardades"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:121
 #: src/plugins/bogofilter/bogofilter_gtk.c:278
@@ -8625,15 +8625,15 @@ msgstr "Camps per mantenir les adreces de"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:144
 msgid "Keep addresses which appear in 'To' headers"
-msgstr "Mantenir addresses contingudes a les capÃ§aleres 'Per a'"
+msgstr "Mantenir addresses contingudes a les capçaleres 'Per a'"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:153
 msgid "Keep addresses which appear in 'Cc' headers"
-msgstr "Mantenir adresses contingudes a les capÃ§aleres 'Cc'"
+msgstr "Mantenir adresses contingudes a les capçaleres 'Cc'"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:162
 msgid "Keep addresses which appear in 'Bcc' headers"
-msgstr "Mantenir adresses contingudes a les capÃ§aleres 'Bcc'"
+msgstr "Mantenir adresses contingudes a les capçaleres 'Bcc'"
 
 #: src/plugins/address_keeper/address_keeper_prefs.c:168
 msgid ""
@@ -20710,20 +20710,20 @@ msgstr ""
 #~ "Printing failed:\n"
 #~ " %s"
 #~ msgstr ""
-#~ "Error d'impressiÃ³:\n"
+#~ "Error d'impressió:\n"
 #~ " %s"
 
 #~ msgid ""
 #~ "Printing HTML is only possible if the program 'html2ps' is installed."
 #~ msgstr ""
-#~ "Imprimir HTML nomÃ©s es possible si el programa 'html2ps' estÃ  "
+#~ "Imprimir HTML només es possible si el programa 'html2ps' està "
 #~ "instalÂ·lat."
 
 #~ msgid "Filename is null."
 #~ msgstr "El nom d'arxiu es null."
 
 #~ msgid "Conversion to postscript failed."
-#~ msgstr "ConversiÃ³ a postscript fallida."
+#~ msgstr "Conversió a postscript fallida."
 
 #~ msgid "Printer %s doesn't accept PostScript files."
 #~ msgstr "La impresora %s no accepta arxius PostScript."
@@ -20732,7 +20732,7 @@ msgstr ""
 #~ "Printing failed:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Error d'impressiÃ³:\n"
+#~ "Error d'impressió:\n"
 #~ "%s"
 
 #, fuzzy
@@ -20740,7 +20740,7 @@ msgstr ""
 #~ msgstr "Configurar bústia"
 
 #~ msgid "Auto-Load images"
-#~ msgstr "Carrega imatges automÃ ticament"
+#~ msgstr "Carrega imatges automàticament"
 
 #~ msgid "Block external content"
 #~ msgstr "Bloqueja contingut extern"
